@@ -4,7 +4,7 @@ Fintech Curriculum Engineer Lesson Plan
 
 ## Files
 
-* Online lesson : [Fintech_CE_Lesson.md](Fintech_CE_Lesson.md)
+* Online lesson : [FinTech_CE_Lesson.md](Fintech_CE_Lesson.md)
 
 * Starter code : [Activities/Unsolved/will.sol](Activities/Unsolved/will.sol)
 
