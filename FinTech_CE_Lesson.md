@@ -111,7 +111,11 @@ Name your new file as `myToken.sol` and click on "OK":
 
 First, we set the Solidity version to 0.6.6 - `pragma solidity ^0.6.6;`. As Solidity gets updated fairly often with significant changes, it is important to specify the right version.
 
-Then we create our first `contract` with two variables - `address public owner` and `mapping (address => uint) public balances`. Variable type `address` allows you to store an Ethereum address more efficiently. The `mapping` is a key-value pair of a user address and token balance for each user.
+Then we create our first `contract` with following variables:
+
+* `address public owner` : Address of the contract owner. Variable type `address` allows you to store an Ethereum address more efficiently.
+
+* `mapping (address => uint) public balances` : The `mapping` is a key-value pair of a user address and token balance for each user.
 
 In the editor type the following:
 
