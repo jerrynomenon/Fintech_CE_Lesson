@@ -55,9 +55,6 @@ contract Will {
     
     function payout() private onlyIfDeceased {
         // @TODO: for each beneficiary pay their inheritance amount
-        for (uint i = 0; i < beneficiaries.length; i++) {
-            beneficiaries[i].transfer(inheritance[beneficiaries[i]]);
-        }
         
         // @TODO: emit paid event
     }
