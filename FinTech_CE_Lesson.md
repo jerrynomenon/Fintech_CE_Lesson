@@ -272,7 +272,11 @@ You will see this error if there is insufficient balance in the contract:
 
 ## Activity - Estate planning with a smart contract will
 
-In this exercise, students will be implementing a smart contract that implements a will. A will is a legal document that says how you want your estate to be divided once you die. 
+In this exercise, students will be implementing a smart contract that implements a *will*. A *will* is a legal document that says how you want your estate to be divided once you die.
+
+The contract will have the owner deposit the estate upon deployment. The owner than can add the beneficiaries (i.e. someone who'll inherit from the estate) with inheritance to be given for each beneficiary. Only the owner can add the beneficiaries.
+
+Once the testator (i.e. the person who wrote the *will*) dies the inheritance will be paid to the beneficiaries.
 
 **Instructions:**
 
@@ -288,7 +292,7 @@ The smart contract will contains following State Variables (i.e. variables that 
 
 * `uint totalInheritance` : total amount of inheritance to be sent to the beneficiaries
   
-* `bool isDeceased` : true if testator (i.e. the person who wrote the will) is deceased
+* `bool isDeceased` : true if the testator is deceased
   
 * `address payable[] beneficiaries` : payable addresses of beneficiaries
   
